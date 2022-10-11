@@ -1,0 +1,233 @@
+body {
+  margin: auto;
+  background-color: rgb(215, 173, 64);
+ 
+
+}
+
+.bg{
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav {
+  background-color: rgb(215, 173, 64);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ .nav a:hover{
+  color: crimson;
+ }
+
+.nav button {
+  border-radius: 10px;
+  border: 2px solid purple;
+  padding: 10px;
+}
+.nav button:hover{
+  background-color: yellowgreen;
+}
+
+.nav img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: larger;
+  font-weight :700px; 
+  color: rgb(69, 2, 69);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.carousel-item img{
+  height: fit-content;
+}
+.carousel img {
+  width: 100%;
+  height: 550px;
+}
+
+.basic {
+  width: 100%;
+
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.bottom {
+  padding: 40px;
+  text-align: center;
+  border-top: 2px solid black;
+}
+
+.signin {
+  
+  padding-bottom: 20px;
+}
+
+.signin a {
+  border: 1px solid crimson;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: whitesmoke;
+}
+
+
+.on-day-off-day {
+  /* background-color: rgb(239, 212, 239); */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.on-day-off-day div {
+  width: 40%;
+  height: 200px;
+  border: 2px solid purple;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+
+
+.shifts div {
+  width: 30%;
+  height: 300px;
+  border: 1px solid purple;
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.staffinfo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.staffinfo div {
+  padding: 1px;
+  margin:20px;
+}
+.card{
+  margin:8px;
+  border-radius: 20px;
+}
+
+  
+
+.about {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about div {
+  width: 80%;
+  padding: 30px;
+}
+
+.add {
+  width: 80%;
+  padding: 30px;
+  margin: 30px;
+  margin-left: 100px;
+  background-color: azure;
+}
+.last{
+  display: flex;
+  justify-content: center;
+
+
+}
+.authority{
+ 
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  
+
+
+}
+.authority img{
+  width: 100px;
+  height: 80px;
+}
+
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  width: 200px;
+  padding: 20px;
+  line-height: 15px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  /* position: absolute; */
+  
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
